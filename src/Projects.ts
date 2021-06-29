@@ -7,6 +7,7 @@ export const Projects: Array<ProjectInterface> = [
     github: "https://github.com/Frederic-Chopin42/smrtpluslearningweb1",
     video:
       "https://drive.google.com/file/d/1eS1FPeD5YYolEMH-saD7R5qVmXa2yVA_/view?usp=sharing",
+    awards: ["Most Realistic"],
   },
   {
     teamName: "TechLearn",
@@ -19,12 +20,14 @@ export const Projects: Array<ProjectInterface> = [
     teamMembers: ["Tony Giang"],
     github: "https://github.com/uofcImmunesystem/uofcImmunesystem.github.io",
     video: "https://youtu.be/MNIj9nJ3Xiw",
+    awards: ["2nd Place"],
   },
   {
     teamName: "5-D Penta",
     teamMembers: ["Ana DuCriste", "Nathan Wu", "Jim Geng", "Allan Kong"],
     github: "https://github.com/natewu/AdmissionPal",
     video: "https://youtu.be/sMwD4T8TVJI",
+    awards: ["1st Place", "Best Tech"],
   },
   {
     teamName: "Innovation",
@@ -49,11 +52,13 @@ export const Projects: Array<ProjectInterface> = [
     teamMembers: ["Harsh Patel"],
     github: "https://github.com/harshp30/Catalist",
     video: "https://www.youtube.com/watch?v=B_cZSHXD4D0",
+    awards: ["3rd Place"],
   },
   {
     teamName: "Mozambique",
     teamMembers: ["Orca Tang"],
     url: "https://orcaprojectyh.wixsite.com/orca",
     video: "https://www.youtube.com/watch?v=cBcWFFMoH3I",
+    awards: ["Best Pitch"],
   },
 ];

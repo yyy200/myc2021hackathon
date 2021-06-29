@@ -1,17 +1,5 @@
 :root {
   font-size: 10px;
-  --gradient-1: linear-gradient(
-    170deg,
-    rgba(249, 104, 103, 1) 0%,
-    rgba(203, 91, 141, 1) 70%,
-    rgba(136, 93, 151, 1) 100%
-  );
-  --gradient-2: linear-gradient(
-    170deg,
-    rgba(255, 146, 46, 1) 0%,
-    rgba(249, 104, 103, 1) 70%,
-    rgba(203, 91, 141, 1) 100%
-  );
   color: white;
 }
 
@@ -27,7 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   height: 100vh;
-  background-color: #00c9b0;
+  background-color: black;
 }
 
 h1 {
@@ -47,13 +35,7 @@ h1 {
 }
 
 .win > * {
-  background: rgba(249, 104, 103, 1)
-    linear-gradient(
-      90deg,
-      rgba(255, 146, 46, 0.4) 0%,
-      rgba(249, 104, 103, 1) 30% 70%,
-      rgba(255, 146, 46, 0.4) 100%
-    );
+  background: gold;
   flex-basis: 100%;
   border-radius: 1em;
   position: relative;
@@ -75,7 +57,7 @@ h1 {
 }
 
 .win > :nth-child(1)::after {
-  content: "Winner";
+  content: "Team Pear";
 }
 
 .win > :nth-child(2) {
@@ -85,7 +67,7 @@ h1 {
 }
 
 .win > :nth-child(2)::after {
-  content: "Winner";
+  content: "5D-Penta";
 }
 
 .win > :nth-child(3) {
@@ -96,7 +78,7 @@ h1 {
 }
 
 .win > :nth-child(3)::after {
-  content: "Winner";
+  content: "Catalist";
 }
 
 .project-container {
@@ -108,14 +90,15 @@ h1 {
   gap: 1.5em;
   width: 60%;
   min-width: 30em;
+  color: black;
 }
 
 .project-container > :nth-child(2n - 1) {
-  background: var(--gradient-1);
+  background: var(--gradient-1, white);
 }
 
 .project-container > :nth-child(2n) {
-  background: var(--gradient-2);
+  background: var(--gradient-2, white);
 }
 
 .project {
@@ -124,6 +107,12 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .project {
+    padding: 1.5em;
+  }
 }
 
 .project h2 {
@@ -150,4 +139,46 @@ h1 {
 
 .ressource-container > a:is(:hover, :focus) {
   color: #00b3c4;
+}
+
+.project-header {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.award-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  gap: 1em;
+  padding: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .award-container {
+    flex-direction: column;
+  }
+}
+
+.award {
+  padding: 2em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+  color: black;
+  flex: 1;
+  min-height: 12em;
+  gap: 1.5em;
+}
+
+.award > h3 {
+  font-size: 2em;
+}
+
+.award > h5 {
+  font-size: 1.2em;
 }

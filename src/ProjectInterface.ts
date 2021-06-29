@@ -4,4 +4,5 @@ export interface ProjectInterface {
   github?: string;
   url?: string;
   video: string;
+  awards?: Array<string>;
 }
