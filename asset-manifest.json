@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myc2021hackathon/static/css/main.65b157e8.chunk.css",
-    "main.js": "/myc2021hackathon/static/js/main.5ea2a2dd.chunk.js",
-    "main.js.map": "/myc2021hackathon/static/js/main.5ea2a2dd.chunk.js.map",
+    "main.js": "/myc2021hackathon/static/js/main.db2e25ab.chunk.js",
+    "main.js.map": "/myc2021hackathon/static/js/main.db2e25ab.chunk.js.map",
     "runtime-main.js": "/myc2021hackathon/static/js/runtime-main.6f8e2765.js",
     "runtime-main.js.map": "/myc2021hackathon/static/js/runtime-main.6f8e2765.js.map",
     "static/js/2.7fc60b03.chunk.js": "/myc2021hackathon/static/js/2.7fc60b03.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6f8e2765.js",
     "static/js/2.7fc60b03.chunk.js",
     "static/css/main.65b157e8.chunk.css",
-    "static/js/main.5ea2a2dd.chunk.js"
+    "static/js/main.db2e25ab.chunk.js"
   ]
 }
