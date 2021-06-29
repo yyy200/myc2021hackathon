@@ -13,9 +13,11 @@ export const Project: React.FC<ProjectInterface> = (
       <div>
         <div className="project-header">
           <h2>{props.teamName}</h2>
-          {props.awards?.map((val, key) => (
-            <AwardWidget key={key} text={val} />
-          ))}
+          <div>
+            {props.awards?.map((val, key) => (
+              <AwardWidget key={key} text={val} />
+            ))}
+          </div>
         </div>
         <p>{props.teamMembers.join(" \u00B7 ")}</p>
       </div>
